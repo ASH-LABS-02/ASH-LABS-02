@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:123B66,100:008F82&amp;height=220&amp;section=header&amp;text=Ashwin%20Raghavendran&amp;fontSize=38&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Software%20Development%20%7C%20Machine%20Learning%20%7C%20Financial%20Technology&amp;descAlignY=60&amp;descSize=16" alt="Ashwin Raghavendran - Software Development, Machine Learning and Financial Technology" width="100%" />
+  <img src="assets/comet-header.svg" alt="Ashwin Raghavendran - animated comet sky" width="100%" />
 </p>
 
 <p align="center">

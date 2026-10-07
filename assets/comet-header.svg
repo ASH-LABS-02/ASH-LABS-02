@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Ashwin Raghavendran</title>
+  <desc id="desc">Animated comets cross a night sky. Software Development, Machine Learning and Financial Technology.</desc>
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#080d17"/><stop offset="1" stop-color="#101e2b"/></linearGradient>
+    <linearGradient id="trail"><stop stop-color="#36e8d5" stop-opacity="0"/><stop offset=".7" stop-color="#36e8d5" stop-opacity=".3"/><stop offset="1" stop-color="#e0fffc"/></linearGradient>
+    <linearGradient id="rose"><stop stop-color="#ff779e" stop-opacity="0"/><stop offset="1" stop-color="#ffcbdc"/></linearGradient>
+    <filter id="glow" x="-100%" y="-200%" width="300%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+    <g id="comet">
+      <path d="M-160 0 Q-80 -8 0 0 Q-80 8 -160 0" fill="url(#trail)"/>
+      <path d="M-160 0 H0" stroke="#36e8d5" stroke-width="5" filter="url(#glow)"/>
+      <circle r="3" fill="#f0fffc"/>
+    </g>
+  </defs>
+  <rect width="1000" height="280" rx="6" fill="url(#sky)"/>
+  <g fill="#b8d4e5" opacity=".55">
+    <circle cx="55" cy="42" r="1"/><circle cx="130" cy="165" r="1.3"/><circle cx="210" cy="65" r="1"/>
+    <circle cx="290" cy="230" r="1"/><circle cx="395" cy="34" r="1.3"/><circle cx="480" cy="250" r="1"/>
+    <circle cx="605" cy="41" r="1"/><circle cx="720" cy="210" r="1.5"/><circle cx="815" cy="62" r="1"/>
+    <circle cx="960" cy="180" r="1.2"/><circle cx="900" cy="235" r="1"/><circle cx="70" cy="245" r="1"/>
+    <animate attributeName="opacity" values=".35;.75;.35" dur="5s" repeatCount="indefinite"/>
+  </g>
+  <g opacity=".8">
+    <use href="#comet">
+      <animateMotion path="M-180 10 L1200 110" dur="6s" repeatCount="indefinite" rotate="auto"/>
+    </use>
+    <use href="#comet">
+      <animateMotion path="M-300 230 L1200 180" dur="8s" begin="-3s" repeatCount="indefinite" rotate="auto"/>
+    </use>
+  </g>
+  <g opacity=".55">
+    <path d="M-110 0 Q-45 -5 0 0 Q-45 5 -110 0" fill="url(#rose)"/>
+    <circle r="2.5" fill="#fff1f6"/>
+    <animateMotion path="M1100 -30 L-160 270" dur="9s" begin="-5s" repeatCount="indefinite" rotate="auto"/>
+  </g>
+  <text x="500" y="126" text-anchor="middle" fill="#f0f6fc" font-family="Georgia,serif" font-size="43" font-weight="bold">Ashwin Raghavendran</text>
+  <text x="500" y="165" text-anchor="middle" fill="#bdccd8" font-family="Arial,sans-serif" font-size="17">Software Development &#183; Machine Learning &#183; Financial Technology</text>
+  <path d="M360 192 H640" stroke="#36e8d5" stroke-opacity=".6"/>
+  <text x="500" y="224" text-anchor="middle" fill="#73e8d4" font-family="monospace" font-size="12">BUILD. EXPERIMENT. ITERATE.</text>
+</svg>
