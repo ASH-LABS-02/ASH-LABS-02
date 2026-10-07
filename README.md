@@ -9,7 +9,7 @@
 <p align="center">
   <a href="mailto:ashwinr2007@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Ashwin" /></a>
   <a href="https://github.com/ash-labs-02"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub profile" /></a>
-  <a href="https://13-62-80-223.sslip.io/#dc-glover-park"><img src="https://img.shields.io/badge/DepthWizard-Live_Demo-008F82?style=for-the-badge" alt="DepthWizard live demo" /></a>
+  <a href="https://13-62-80-223.sslip.io/#dc-glover-park"><img src="https://img.shields.io/badge/DepthWizard-Live_Demo-008F82?style=for-the-badge" alt="DepthWizard" /></a>
 </p>
 
 ## About Me
